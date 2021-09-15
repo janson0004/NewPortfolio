@@ -79,7 +79,7 @@ const About = () => {
       </CustomRow>
 
       <HeadLine id="ContactMe">Contact Me</HeadLine>
-      <ContactForm method="POST">
+      <ContactForm method="POST" netlify netlify-honeypot="bot-field">
         <FormTitle>Your Name</FormTitle>
         <BarWrapper>
           <IconAndTagWrapper>
