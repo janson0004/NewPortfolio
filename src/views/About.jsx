@@ -3,7 +3,7 @@ import styled from "styled-components/macro";
 import Container from "react-bootstrap/Container";
 
 import Face from "../assets/Face.svg";
-import { Row, Col, Form } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import {
   FaCode,
   FaShoppingBag,
@@ -79,14 +79,14 @@ const About = () => {
       </CustomRow>
 
       <HeadLine id="ContactMe">Contact Me</HeadLine>
-      <ContactForm method="POST" netlify netlify-honeypot="bot-field">
+      <ContactForm netlify netlify-honeypot="bot-field">
         <FormTitle>Your Name</FormTitle>
         <BarWrapper>
           <IconAndTagWrapper>
             <CustomIcon>
               <FaRegUser />
             </CustomIcon>
-            <Input id="Name" type="name" required></Input>
+            <Input name="name" type="text" required></Input>
           </IconAndTagWrapper>
         </BarWrapper>
 
@@ -97,7 +97,7 @@ const About = () => {
             <CustomIcon>
               <FaRegEnvelope />
             </CustomIcon>
-            <Input id="email" type="email" required></Input>
+            <Input name="email" type="email" required></Input>
           </IconAndTagWrapper>
         </BarWrapper>
 
@@ -109,7 +109,7 @@ const About = () => {
               <FaRegComments />
             </CustomIcon>
             <MessageInput
-              id="message"
+              name="message"
               type="text"
               placeholder="Enter your messages here..."
               rows={8}
