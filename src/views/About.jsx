@@ -79,14 +79,14 @@ const About = () => {
       </CustomRow>
 
       <HeadLine id="ContactMe">Contact Me</HeadLine>
-      <ContactForm
+      {/* <ContactForm
         name="contact v1"
         method="post"
         data-netlify="true"
         onSubmit="submit"
-      >
-        <input type="hidden" name="form-name" value="contact v1" />
-        {/* <FormTitle>Your Name</FormTitle>
+      > */}
+      {/* <input type="hidden" name="form-name" value="contact v1" /> */}
+      {/* <FormTitle>Your Name</FormTitle>
         <BarWrapper>
           <IconAndTagWrapper>
             <CustomIcon>
@@ -123,6 +123,13 @@ const About = () => {
             ></MessageInput>
           </IconWrapper>
         </MessageWrapper> */}
+      <form
+        name="contact v1"
+        method="post"
+        data-netlify="true"
+        onSubmit="submit"
+      >
+        <input type="hidden" name="form-name" value="contact v1" />
         <div>
           <label>
             <input type="text" name="name"></input>
@@ -135,7 +142,8 @@ const About = () => {
         </div>
 
         <SubmitButton type="submit">Send Message</SubmitButton>
-      </ContactForm>
+      </form>
+      {/* </ContactForm> */}
     </CustomContainer>
   );
 };
