@@ -78,14 +78,9 @@ const About = () => {
       </CustomRow>
 
       <HeadLine id="ContactMe">Contact Me</HeadLine>
-      {/* <ContactForm
-        name="contact v1"
-        method="post"
-        data-netlify="true"
-        onSubmit="submit"
-      > */}
-      {/* <input type="hidden" name="form-name" value="contact v1" /> */}
-      {/* <FormTitle>Your Name</FormTitle>
+      <ContactForm name="contact v1" method="post" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact v1" />
+        <FormTitle>Your Name</FormTitle>
         <BarWrapper>
           <IconAndTagWrapper>
             <CustomIcon>
@@ -95,7 +90,6 @@ const About = () => {
           </IconAndTagWrapper>
         </BarWrapper>
 
-        
         <FormTitle htmlFor="email">Mail</FormTitle>
         <BarWrapper>
           <IconAndTagWrapper>
@@ -106,7 +100,6 @@ const About = () => {
           </IconAndTagWrapper>
         </BarWrapper>
 
-        
         <FormTitle>Message</FormTitle>
         <MessageWrapper>
           <IconWrapper>
@@ -121,8 +114,8 @@ const About = () => {
               required
             ></MessageInput>
           </IconWrapper>
-        </MessageWrapper> */}
-      <form
+        </MessageWrapper>
+        {/* <form
         name="contact v1"
         method="post"
         data-netlify="true"
@@ -138,12 +131,12 @@ const About = () => {
         <div>
           <label htmlFor="email"> Email</label>
           <input id="email" type="email" name="email" />
-        </div>
+        </div> */}
 
-        {/* <SubmitButton type="submit">Send Message</SubmitButton> */}
-        <button type="submit">test</button>
-      </form>
-      {/* </ContactForm> */}
+        <SubmitButton type="submit">Send Message</SubmitButton>
+        {/* <button type="submit">test</button>
+      </form> */}
+      </ContactForm>
     </CustomContainer>
   );
 };
