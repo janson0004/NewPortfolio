@@ -86,7 +86,7 @@ const About = () => {
         onSubmit="submit"
       >
         <input type="hidden" name="form-name" value="contact v1" />
-        <FormTitle>Your Name</FormTitle>
+        {/* <FormTitle>Your Name</FormTitle>
         <BarWrapper>
           <IconAndTagWrapper>
             <CustomIcon>
@@ -96,7 +96,7 @@ const About = () => {
           </IconAndTagWrapper>
         </BarWrapper>
 
-        {/* Mail part */}
+        
         <FormTitle htmlFor="email">Mail</FormTitle>
         <BarWrapper>
           <IconAndTagWrapper>
@@ -107,7 +107,7 @@ const About = () => {
           </IconAndTagWrapper>
         </BarWrapper>
 
-        {/* Message Part */}
+        
         <FormTitle>Message</FormTitle>
         <MessageWrapper>
           <IconWrapper>
@@ -122,7 +122,18 @@ const About = () => {
               required
             ></MessageInput>
           </IconWrapper>
-        </MessageWrapper>
+        </MessageWrapper> */}
+        <div>
+          <label>
+            <input type="text" name="name"></input>
+          </label>
+        </div>
+
+        <div>
+          <label htmlFor="email"> Email</label>
+          <input id="email" type="email" name="email" />
+        </div>
+
         <SubmitButton type="submit">Send Message</SubmitButton>
       </ContactForm>
     </CustomContainer>
