@@ -79,7 +79,13 @@ const About = () => {
       </CustomRow>
 
       <HeadLine id="ContactMe">Contact Me</HeadLine>
-      <ContactForm netlify netlify-honeypot="bot-field">
+      <ContactForm
+        name="contact v1"
+        method="post"
+        data-netlify="true"
+        onSubmit="submit"
+      >
+        <input type="hidden" name="form-name" value="contact v1" />
         <FormTitle>Your Name</FormTitle>
         <BarWrapper>
           <IconAndTagWrapper>
@@ -117,7 +123,7 @@ const About = () => {
             ></MessageInput>
           </IconWrapper>
         </MessageWrapper>
-        <SubmitButton>Send Message</SubmitButton>
+        <SubmitButton type="submit">Send Message</SubmitButton>
       </ContactForm>
     </CustomContainer>
   );
