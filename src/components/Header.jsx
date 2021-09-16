@@ -194,7 +194,7 @@ const CustomHref = styled.a`
 `;
 
 const CustomHrefSm = styled.a`
-  font-size: 25px;
+  font-size: 22px;
   color: #000000;
   text-decoration: none;
   margin-left: 39px;
