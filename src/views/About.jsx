@@ -97,7 +97,7 @@ const About = () => {
         </BarWrapper>
 
         {/* Mail part */}
-        <FormTitle>Mail</FormTitle>
+        <FormTitle htmlFor="email">Mail</FormTitle>
         <BarWrapper>
           <IconAndTagWrapper>
             <CustomIcon>
@@ -163,7 +163,7 @@ const BlockDiv = styled.div`
   }
 `;
 
-const Title = styled.h1`
+const Title = styled.label`
   font-size: 50px;
   font-weight: 500;
   margin-bottom: 26px;
