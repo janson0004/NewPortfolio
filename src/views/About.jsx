@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components/macro";
 import Container from "react-bootstrap/Container";
-
 import Face from "../assets/Face.svg";
 import { Row, Col } from "react-bootstrap";
 import {
@@ -141,7 +140,8 @@ const About = () => {
           <input id="email" type="email" name="email" />
         </div>
 
-        <SubmitButton type="submit">Send Message</SubmitButton>
+        {/* <SubmitButton type="submit">Send Message</SubmitButton> */}
+        <button type="submit">test</button>
       </form>
       {/* </ContactForm> */}
     </CustomContainer>
