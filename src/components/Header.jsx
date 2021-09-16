@@ -78,7 +78,7 @@ const Nav = styled.nav`
 `;
 
 const Logo = styled(Link)`
-  font-size: 35px;
+  font-size: 30px;
   font-weight: 500;
   font-family: "Montserrat";
   list-style: none;
@@ -108,20 +108,20 @@ const Item = styled.li`
 `;
 
 const CustomHashLink = styled(HashLink)`
-  font-size: 25px;
+  font-size: 22px;
   color: #000000;
   text-decoration: none;
   margin-left: 39px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Montserrat";
 `;
 
 const ItemLink = styled(Link)`
-  font-size: 25px;
+  font-size: 22px;
   color: #000000;
   text-decoration: none;
   margin-left: 39px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Montserrat";
 `;
 
@@ -184,11 +184,11 @@ const OverlayMenu = styled.ul`
 `;
 
 const CustomHref = styled.a`
-  font-size: 25px;
+  font-size: 22px;
   color: #000000;
   text-decoration: none;
   margin-left: 39px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: "Montserrat";
   text-decoration: none;
 `;

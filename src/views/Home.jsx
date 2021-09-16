@@ -71,7 +71,7 @@ const ProfileImg = styled.img`
 `;
 
 const Title = styled.span`
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600;
 
   @media (max-width: 1023.98px) {
@@ -97,7 +97,7 @@ const MediumTitle = styled.span`
 `;
 
 const Hello = styled.span`
-  font-size: 60px;
+  font-size: 50px;
   font-weight: 600;
   background: linear-gradient(180deg, rgba(255, 255, 255, 0) 60%, #ffd0ae 50%);
   @media (max-width: 769.98px) {
