@@ -113,8 +113,8 @@ const Environment = styled.span`
   font-size: 18px;
   color: #563b1c;
   font-weight: 500;
-  margin-top: 46px;
-  margin-bottom: 46px;
+  margin-top: 30px;
+  margin-bottom: 30px;
   @media (max-width: 419.98px) {
     font-size: 12px;
     margin-top: 30px;
